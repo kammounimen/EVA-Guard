@@ -1,0 +1,23 @@
+# Données
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Index RAG et modèles
+rag/index/*
+!rag/index/.gitkeep
+ml/models/*.pkl
+ml/models/*.joblib
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env
+.env
+
+# OS
+.DS_Store
